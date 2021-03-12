@@ -1,0 +1,62 @@
+@import url('https://fonts.google.com/specimen/Archivo');
+
+.corpo1{
+  background: url(grafismo_ciano.svg) no-repeat right center fixed;
+  background-size:cover;
+  background-color: #143c85;
+  font-family: 'Archivo', sans-serif;
+  color: white;
+  font-family: 'Archivo', sans-serif;
+}
+
+.corpo2{
+  background: url(grafismo_ciano.svg) no-repeat right center fixed;
+  background-size:cover;
+  background-color: #143c85;
+  font-family: 'Archivo', sans-serif;
+  color: #4d4d4d;
+  font-family: 'Archivo', sans-serif;
+}
+
+.corpo3{
+  background: url(grafismo_marinho.svg) no-repeat right center fixed;
+  background-size:cover;
+  background-color: #88e2f2;
+  font-family: 'Archivo', sans-serif;
+  color: #4d4d4d;
+  font-family: 'Archivo', sans-serif;
+}
+
+.corpo4{
+  background: url(grafismo_marinho.svg) no-repeat right center fixed;
+  background-size:cover;
+  background-color: #88e2f2;
+  font-family: 'Archivo', sans-serif;
+  color: #143c85;
+  font-family: 'Archivo', sans-serif;
+}
+
+.corpo5{
+  background: url(grafismo_marinho.svg) no-repeat right center fixed;
+  background-size:cover;
+  font-family: 'Archivo', sans-serif;
+  color: #143c85;
+  font-family: 'Archivo', sans-serif;
+}
+
+
+.titulo{
+  margin-top: 7vh;
+  text-align: left;
+}
+
+img{
+  width: 450px;
+  margin-left: -20px;
+}
+
+@media (min-width: 800px) {
+  .container{
+    margin-left: 15vh;
+  }
+}
