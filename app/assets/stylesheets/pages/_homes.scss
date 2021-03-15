@@ -30,6 +30,8 @@
   }
 
   img{
+    margin-bottom: 200px;
+    margin-top: -10px;
     width: 470px;
     margin-left: -20px;
   }
@@ -40,37 +42,11 @@
   
 }
 
-@media (max-width: 420px){
-  .corpo1{
-    background: url(grafismo_cel_ciano.svg) no-repeat bottom fixed;
-    //background-size:cover;
-    background-color: #143c85;
-    font-family: 'Archivo', sans-serif;
-    color: white;
-    font-family: 'Archivo', sans-serif;
-  }
-
-  .corpo2{
-    background: url(grafismo_cel_marinho.svg) no-repeat bottom fixed;
-    // background-size:cover;
-    background-color: #88e2f2;
-    font-family: 'Archivo', sans-serif;
-    color: #143c85;
-    font-family: 'Archivo', sans-serif;
-  }
-
-  img{
-    width: 300px;
-    margin-left: -15px;
-  }
-  
-
-}
-
 @media (max-width: 1199px){
   .corpo1{
     background: url(grafismo_cel_ciano.svg) no-repeat bottom fixed;
-    //background-size:cover;
+    background-size:  160vw;
+    background-position-y: 260px;
     background-color: #143c85;
     font-family: 'Archivo', sans-serif;
     color: white;
@@ -89,11 +65,94 @@
   img{
     width: 300px;
     margin-left: -15px;
+    margin-bottom: 200px;
+    margin-top: -10px;
+  }
+
+  .titulo{
+    margin-top: 3vh;
+    text-align: left;
   }
 
   p{
     font-size: larger;
   }
+
+}
+
+@media (max-width: 1199px) and (min-height: 1000px){
+  .corpo1{
+    background: url(grafismo_cel_ciano.svg) no-repeat bottom fixed;
+    background-size:  160vw;
+    // background-position-y: 260px;
+    background-color: #143c85;
+    font-family: 'Archivo', sans-serif;
+    color: white;
+    font-family: 'Archivo', sans-serif;
+  }
+
+  .corpo2{
+    background: url(grafismo_cel_marinho.svg) no-repeat bottom fixed;
+    // background-size:cover;
+    background-color: #88e2f2;
+    font-family: 'Archivo', sans-serif;
+    color: #143c85;
+    font-family: 'Archivo', sans-serif;
+  }
+
+  img{
+    width: 300px;
+    margin-left: -15px;
+    margin-bottom: 200px;
+    margin-top: -10px;
+  }
+
+  .titulo{
+    margin-top: 3vh;
+    text-align: left;
+  }
+
+  p{
+    font-size: larger;
+  }
+
+}
+
+@media (max-width: 750px){
+  .corpo1{
+    background: url(grafismo_cel_ciano.svg) no-repeat bottom fixed;
+    //background-size:cover;
+    background-color: #143c85;
+    font-family: 'Archivo', sans-serif;
+    color: white;
+    font-family: 'Archivo', sans-serif;
+  }
+
+  .corpo2{
+    background: url(grafismo_cel_marinho.svg) no-repeat bottom fixed;
+    // background-size:cover;
+    background-color: #88e2f2;
+    font-family: 'Archivo', sans-serif;
+    color: #143c85;
+    font-family: 'Archivo', sans-serif;
+  }
+
+  img{
+    width: 300px;
+    margin-left: -15px;
+    margin-bottom: 200px;
+    margin-top: -10px;
+  }
+
+  .titulo{
+    margin-top: 3vh;
+    text-align: left;
+  }
+
+  p{
+    font-size: small;
+  }
+  
 
 }
 
